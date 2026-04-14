@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://kubraengudar.com/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://kubraengudar.com/hakkimda</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/hakkimda"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/about"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://kubraengudar.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://kubraengudar.com/en/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/about"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/hakkimda"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+</urlset>
