@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd \"C:/Users/Batuh/OneDrive/Masaüstü/kubraengudar.com\" && git add -A && (git diff --cached --quiet || git commit -m \"Claude: otomatik güncelleme\") && git push 2>/dev/null || true",
+            "timeout": 30,
+            "statusMessage": "GitHub'a gönderiliyor..."
+          }
+        ]
+      }
+    ]
+  }
+}
