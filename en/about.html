@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<meta name="description" content="About Psychologist Kübra Engüdar - Education, experience, areas of expertise and therapeutic approach.">
+<title>About — Psychologist Kübra Engüdar</title>
+<link rel="alternate" hreflang="tr" href="https://kubraengudar.com/hakkimda">
+<link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/about">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--primary:#8A7262;--primary-light:#F0E8E0;--primary-lighter:#F7F3EE;--primary-dark:#5C4A3E;--primary-darker:#3E2E24;--accent:#B8956A;--accent-light:#F5EDE4;--text:#3E2E24;--text-secondary:#6B5C50;--text-muted:#8A7B6E;--border:rgba(138,114,98,0.15);--bg:#FDFBF9;--serif:'Cormorant Garamond',Georgia,serif;--sans:'DM Sans',-apple-system,BlinkMacSystemFont,system-ui,sans-serif}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:var(--sans);color:var(--text);background:var(--bg);line-height:1.7;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;height:auto;display:block}
+.container{max-width:1200px;margin:0 auto;padding:0 40px}
+.topbar{background:var(--primary-dark);padding:10px 0}
+.topbar-inner{display:flex;justify-content:space-between;align-items:center}
+.topbar-links{display:flex;gap:24px;align-items:center}
+.topbar-links a{color:rgba(255,255,255,0.9);text-decoration:none;font-size:13px;display:inline-flex;align-items:center;gap:7px}
+.lang-switch{display:flex;gap:4px}
+.lang-switch a{padding:4px 12px;border-radius:4px;font-size:12px;cursor:pointer;font-weight:500;text-decoration:none}
+.lang-switch .active{background:rgba(255,255,255,0.2);color:rgba(255,255,255,1)}
+.lang-switch .inactive{color:rgba(255,255,255,0.5)}
+.nav{padding:20px 0;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--border)}
+.logo-name{font-family:var(--serif);font-size:28px;font-weight:500;color:var(--primary-darker);display:block}
+.logo-title{font-size:14px;letter-spacing:1.2px;text-transform:uppercase;color:var(--primary);margin-top:4px;font-weight:500;display:block}
+.nav-links{display:flex;gap:28px;align-items:center}
+.nav-links a{font-size:15px;color:var(--text-secondary);text-decoration:none}
+.nav-links a:hover,.nav-links a.active{color:var(--primary-dark);font-weight:500}
+.nav-links a.nav-cta{padding:12px 28px;border-radius:28px;background:var(--primary);color:rgba(255,255,255,1)!important;font-size:14px;font-weight:500}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:8px;background:none;border:none}
+.hamburger span{width:24px;height:2px;background:var(--primary-dark);display:block}
+.mobile-menu{display:none}
+.section-tag{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;color:var(--primary);font-weight:500;margin-bottom:10px}
+.section-title{font-family:var(--serif);font-size:36px;font-weight:500;color:var(--primary-darker);line-height:1.2}
+
+.page-hero{padding:60px 0 40px;display:flex;gap:60px;align-items:center}
+.page-hero-text{flex:1.2}
+.page-hero-photo{flex:0.8;display:flex;justify-content:flex-end}
+.page-hero-photo img{width:100%;max-width:340px;border-radius:20px;object-fit:cover}
+.page-hero h1{font-family:var(--serif);font-size:44px;font-weight:500;color:var(--primary-darker);margin-bottom:8px}
+.page-hero .subtitle{font-size:18px;color:var(--primary);font-style:italic;margin-bottom:20px}
+.page-hero p{font-size:16px;color:var(--text-secondary);line-height:1.85;margin-bottom:14px}
+
+.detail-section{padding:60px 0;border-top:1px solid var(--border)}
+.detail-section h2{font-family:var(--serif);font-size:30px;font-weight:500;color:var(--primary-darker);margin-bottom:24px}
+.detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.detail-card{padding:20px 24px;border-radius:12px;background:var(--primary-lighter)}
+.detail-card .label{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--text-muted);margin-bottom:4px}
+.detail-card .value{font-size:15px;color:var(--primary-dark);font-weight:500}
+.detail-list{list-style:none;display:flex;flex-direction:column;gap:10px}
+.detail-list li{padding:12px 18px;border-radius:10px;background:var(--primary-lighter);font-size:14px;color:var(--text-secondary);line-height:1.5}
+.detail-list li strong{color:var(--primary-dark);display:block;margin-bottom:2px}
+
+.cta-banner{padding:60px 0}
+.cta-banner-inner{border-radius:20px;background:linear-gradient(145deg,var(--primary-light),var(--accent-light));padding:48px;text-align:center}
+.cta-banner h2{font-family:var(--serif);font-size:32px;font-weight:500;color:var(--primary-darker);margin-bottom:12px}
+.cta-banner p{font-size:16px;color:var(--text-secondary);max-width:480px;margin:0 auto 28px}
+.btn-primary{padding:14px 36px;border-radius:28px;background:var(--primary);color:rgba(255,255,255,1);font-size:15px;font-weight:500;text-decoration:none;display:inline-block;font-family:var(--sans)}
+
+.footer{background:var(--primary-darker);padding:40px 0 0;margin-top:20px}
+.footer-inner{display:flex;justify-content:space-between;align-items:center;padding-bottom:28px;border-bottom:1px solid rgba(255,255,255,0.1)}
+.footer-left span{font-family:var(--serif);font-size:22px;font-weight:500;color:rgba(255,255,255,1)}
+.footer-left small{display:block;font-size:14px;color:rgba(255,255,255,0.6);margin-top:6px}
+.footer-links{display:flex;gap:28px}
+.footer-links a{font-size:14px;color:rgba(255,255,255,0.6);text-decoration:none}
+.footer-copy{text-align:center;padding:20px 0;font-size:13px;color:rgba(255,255,255,0.4)}
+
+@media(max-width:1024px){.container{padding:0 28px}.page-hero{flex-direction:column;gap:32px}}
+@media(max-width:768px){.container{padding:0 20px}.nav-links{display:none}.hamburger{display:flex}.mobile-menu.open{display:flex;flex-direction:column;padding:20px 0;gap:16px;border-bottom:1px solid var(--border)}.mobile-menu a{font-size:17px;color:var(--text-secondary);text-decoration:none;padding:10px 0;display:block}.mobile-menu .nav-cta{text-align:center;display:block;margin-top:8px;padding:14px;border-radius:28px;background:var(--primary);color:rgba(255,255,255,1)}.page-hero h1{font-size:32px}.section-title{font-size:28px}.detail-grid{grid-template-columns:1fr}.cta-banner-inner{padding:32px 20px}.cta-banner h2{font-size:26px}.footer-inner{flex-direction:column;gap:20px;text-align:center}}
+</style>
+</head>
+<body>
+
+<div class="topbar"><div class="container topbar-inner">
+<div class="topbar-links">
+<a href="mailto:info@kubraengudar.com"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>info@kubraengudar.com</a>
+<a href="https://www.instagram.com/psikolog.kubraengudar" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>@psikolog.kubraengudar</a>
+</div>
+<div class="lang-switch"><a href="/hakkimda.html" class="inactive">TR</a><a href="/en/about.html" class="active">EN</a></div>
+</div></div>
+
+<nav class="container"><div class="nav">
+<div class="logo"><a href="/en/" style="text-decoration:none"><span class="logo-name">Kübra Engüdar</span><span class="logo-title">Clinical Psychologist · Family Counselor</span></a></div>
+<div class="nav-links"><a href="/en/">Home</a><a href="/en/about.html" class="active">About</a><a href="/en/#blog">Blog</a><a href="/en/#contact">Contact</a><a href="/en/#appointment" class="nav-cta">Book a Session</a></div>
+<button class="hamburger" onclick="document.querySelector('.mobile-menu').classList.toggle('open')" aria-label="Menu"><span></span><span></span><span></span></button>
+</div>
+<div class="mobile-menu"><a href="/en/">Home</a><a href="/en/about.html" class="active">About</a><a href="/en/#blog">Blog</a><a href="/en/#contact">Contact</a><a href="/en/#appointment" class="nav-cta">Book a Session</a></div>
+</nav>
+
+<section class="page-hero container">
+<div class="page-hero-text">
+<p class="section-tag">About Me</p>
+<h1>Psychologist Kübra Engüdar</h1>
+<p class="subtitle">Clinical Psychologist · Family Counselor</p>
+<p>After graduating from Uludağ University's Psychology Department, she completed her master's degree in Clinical Psychology at Arel University, earning the title of Clinical Psychologist.</p>
+<p>She completed the Family Counseling Certificate Program at Biruni University, also earning the qualification of Family Counselor.</p>
+<p>She has gained experience working with children, adolescents, adults, and families in various clinical and educational settings, and has contributed academically as a guest lecturer at university. She currently lives in New York and continues to offer online counseling.</p>
+</div>
+<div class="page-hero-photo"><img src="/images/kubra.jpg" alt="Psychologist Kübra Engüdar"></div>
+</section>
+
+<section class="detail-section container">
+<h2>Education</h2>
+<div class="detail-grid">
+<div class="detail-card"><div class="label">Bachelor's</div><div class="value">Uludağ University — Psychology</div></div>
+<div class="detail-card"><div class="label">Master's</div><div class="value">İstanbul Arel University — Clinical Psychology</div></div>
+<div class="detail-card"><div class="label">Certificate Program</div><div class="value">Biruni University — Family Counseling</div></div>
+<div class="detail-card"><div class="label">Specialization</div><div class="value">EMDR Therapy (Behavioral Sciences Institute)</div></div>
+</div>
+</section>
+
+<section class="detail-section container">
+<h2>Supplementary Training &amp; Certificates</h2>
+<ul class="detail-list">
+<li><strong>EMDR Therapy</strong>Level 1 &amp; 2 — Behavioral Sciences Institute, Emre Konuk</li>
+<li><strong>Child-Adolescent EMDR Therapy</strong>Fide Counseling, Ümran Korkmazlar</li>
+<li><strong>Child-Centered Play Therapy</strong>Play Therapies Association, Dr. Birgül Emiroğlu Bakay</li>
+<li><strong>Structured Play Therapy</strong>Play Therapies Association, Dr. Birgül Emiroğlu Bakay</li>
+<li><strong>Filial Therapy</strong>Elif Macit Training Academy</li>
+<li><strong>Adult Projective Tests</strong>Rorschach, TAT — Rorschach and Projective Tests Association</li>
+<li><strong>Child-Adolescent Projective Tests</strong>Rorschach, CAT, TAT — Rorschach and Projective Tests Association</li>
+<li><strong>Brief Solution-Focused Therapy</strong>Asst. Prof. Nevin Dölek</li>
+<li><strong>Safe Haven Child and Adolescent Psychotherapy</strong>Psikoloji İstanbul, Dr. Nilüfer Devecigil</li>
+<li><strong>WISC-4 Intelligence Scale</strong>Turkish Psychological Association</li>
+<li><strong>Denver II Developmental Screening Test</strong>Turkish Psychological Association</li>
+<li><strong>The Body Keeps the Score: Trauma Healing Through the Senses</strong>Bessel van der Kolk, Online Conference</li>
+<li><strong>Healing Betrayal Trauma &amp; Grief</strong>John Gottman, Julie Gottman, David Kessler, Online Training</li>
+<li><strong>EMDR Therapy Crash Course: Fundamental Techniques and Clinical Applications</strong>Laura Swinford, Online Training</li>
+<li><strong>When a Spouse Dies: Support for the Loneliness No One Talks About</strong>David Kessler, Online Training</li>
+<li><strong>Transformation Journey of Immigrant Women</strong>Gülseren Budayıcıoğlu, Webinar / Talk</li>
+<li><strong>Challenges in the Birth Process and Family Coping Mechanisms</strong>Mustafa Çetinkaya, Online Seminar</li>
+<li><strong>Migration and Womanhood</strong>Immigrant Psychologists Platform (GPPA), Webinar</li>
+<li><strong>Applying Psychological Flexibility in Clinical Practice: Enhancing Effectiveness in Therapy</strong>American Psychological Association (APA), Online Training</li>
+<li><strong>Inspired Parenting: Parenting from an Attachment and Trauma Perspective</strong>Dafna Lender, Online Training</li>
+</ul>
+</section>
+
+<section class="detail-section container">
+<h2>Memberships</h2>
+<div class="detail-grid">
+<div class="detail-card"><div class="value">Turkish Psychological Association</div></div>
+<div class="detail-card"><div class="value">EMDR Turkey Association</div></div>
+<div class="detail-card"><div class="value">AÇEV (Mother Child Education Foundation)</div></div>
+<div class="detail-card"><div class="value">Community Volunteers Foundation (TOG)</div></div>
+</div>
+</section>
+
+<section class="cta-banner container">
+<div class="cta-banner-inner">
+<h2>Ready to work together?</h2>
+<p>Let's meet for a brief initial consultation and decide on the process together.</p>
+<a href="/en/#contact-form" class="btn-primary">Apply Now</a>
+</div>
+</section>
+
+<footer class="footer"><div class="container footer-inner">
+<div class="footer-left"><span>Kübra Engüdar</span><small>Clinical Psychologist · Family Counselor</small></div>
+<div class="footer-links"><a href="#">Privacy Policy</a><a href="#">Terms</a></div>
+</div><div class="footer-copy container">© 2026 kubraengudar.com · All rights reserved.</div></footer>
+</body>
+</html>
