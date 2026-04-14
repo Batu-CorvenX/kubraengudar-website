@@ -295,23 +295,35 @@ img{max-width:100%;height:auto;display:block}
 <!-- CTA + FORM -->
 <section class="cta container" id="appointment"><div class="cta-inner">
 <h2>İlk adımı birlikte atalım</h2>
-<p>Size özel destek sunuyorum. Aşağıdaki formu doldurarak ücretsiz ön görüşme talep edin.</p>
+<p>Size özel destek sunuyorum. Aşağıdaki formu doldurarak başvurunuzu yapın.</p>
+<a href="#contact-form" class="btn-primary">Başvuru Yap</a>
 </div></section>
 
-<section class="contact-form-section container">
+<section class="contact-form-section container" id="contact-form">
 <div class="contact-form-inner">
-<h3>Ön Görüşme Talebi</h3>
-<p class="subtitle">Formu doldurun, en kısa sürede size dönüş yapayım.</p>
+<h3>Danışmanlık Başvuru Formu</h3>
+<p class="subtitle">Formu doldurun, en kısa sürede size dönüş yapacağım.</p>
 <form action="https://formspree.io/f/xaqlllkn" method="POST">
 <div class="form-group"><label>Adınız Soyadınız</label><input type="text" name="name" placeholder="Adınız Soyadınız" required></div>
 <div class="form-group"><label>E-posta Adresiniz</label><input type="email" name="email" placeholder="ornek@email.com" required></div>
 <div class="form-group"><label>Telefon Numaranız</label><input type="tel" name="phone" placeholder="+1 (555) 000-0000"></div>
 <div class="form-group"><label>Destek almak istediğiniz konu</label>
-<select name="topic"><option value="">Seçiniz...</option><option>Kaygı ve stres</option><option>İlişki sorunları</option><option>Tükenmişlik</option><option>Göç ve adaptasyon</option><option>Aile içi çatışmalar</option><option>Çocuk/ergen sorunları</option><option>Diğer</option></select></div>
-<div class="form-group"><label>Mesajınız (isteğe bağlı)</label><textarea name="message" placeholder="Kısaca kendinizden ve beklentilerinizden bahsedebilirsiniz..."></textarea></div>
-<input type="hidden" name="_subject" value="Yeni Ön Görüşme Talebi - kubraengudar.com">
+<select name="topic"><option value="">Seçiniz...</option><option>Bireysel Danışmanlık</option><option>Çocuk-Ergen Danışmanlığı</option><option>Aile Danışmanlığı</option></select></div>
+<div class="form-group"><label>Başvuru Nedeniniz</label><textarea name="message" placeholder="Kısaca başvuru nedeninizden ve beklentilerinizden bahsedebilirsiniz..."></textarea></div>
+<div class="form-group">
+<label>Bana nasıl ulaştınız?</label>
+<select name="referral" onchange="document.getElementById('referral-other').style.display=this.value==='Diğer'?'block':'none'">
+<option value="">Seçiniz...</option>
+<option>Instagram</option>
+<option>Google</option>
+<option>Tavsiye</option>
+<option value="Diğer">Diğer</option>
+</select>
+<input type="text" id="referral-other" name="referral_other" placeholder="Nasıl ulaştığınızı belirtiniz..." style="display:none;margin-top:8px">
+</div>
+<input type="hidden" name="_subject" value="Yeni Danışmanlık Başvurusu - kubraengudar.com">
 <input type="hidden" name="_next" value="https://kubraengudar.com">
-<button type="submit" class="form-submit">Ön Görüşme Talep Et</button>
+<button type="submit" class="form-submit">Başvuru Gönder</button>
 </form>
 </div>
 </section>
