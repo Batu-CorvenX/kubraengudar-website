@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<meta name="description" content="Psikolog Kübra Engüdar Blog — Psikoloji, ebeveynlik, göç, ilişkiler ve kişisel gelişim üzerine yazılar.">
+<title>Blog — Psikolog Kübra Engüdar</title>
+<link rel="canonical" href="https://kubraengudar.com/blog">
+<link rel="alternate" hreflang="tr" href="https://kubraengudar.com/blog">
+<link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/blog">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--primary:#7A9E7E;--primary-light:#EBF2EC;--primary-lighter:#F5F0E8;--primary-dark:#4A6E4E;--primary-darker:#2C2417;--accent:#C4956A;--accent-light:#F5EAE0;--text:#2C2417;--text-secondary:#6B5C4A;--text-muted:#9A8878;--border:rgba(44,36,23,0.1);--bg:#FDFBF6;--serif:'Cormorant Garamond',Georgia,serif;--sans:'DM Sans',-apple-system,BlinkMacSystemFont,system-ui,sans-serif}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:var(--sans);color:var(--text);background:var(--bg);line-height:1.7;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+.container{max-width:1200px;margin:0 auto;padding:0 40px}
+.nav{padding:20px 0;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--border)}
+.logo-name{font-family:var(--serif);font-size:28px;font-weight:500;color:var(--primary-darker);display:block}
+.logo-title{font-size:13px;letter-spacing:1px;text-transform:uppercase;color:var(--primary-dark);margin-top:4px;font-weight:500;display:block}
+.nav-right{display:flex;gap:28px;align-items:center}
+.nav-links{display:flex;gap:28px;align-items:center}
+.nav-links a{font-size:15px;color:var(--text-secondary);text-decoration:none}
+.nav-links a:hover,.nav-links a.active{color:var(--primary-dark);font-weight:500}
+.nav-links a.nav-cta{padding:12px 28px;border-radius:28px;background:var(--primary);color:rgba(255,255,255,1)!important;font-size:14px;font-weight:500}
+.nav-links a.nav-cta:hover{background:var(--primary-dark)}
+.lang-switch{display:flex;gap:2px;border:1px solid var(--border);border-radius:6px;overflow:hidden}
+.lang-switch a{padding:5px 12px;font-size:12px;font-weight:500;text-decoration:none;color:var(--text-muted)}
+.lang-switch a.active{background:var(--primary);color:rgba(255,255,255,1)}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:8px;background:none;border:none}
+.hamburger span{width:24px;height:2px;background:var(--primary-darker);display:block}
+.mobile-menu{display:none}
+.section-tag{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;color:var(--primary-dark);font-weight:500;margin-bottom:10px}
+.section-title{font-family:var(--serif);font-size:36px;font-weight:500;color:var(--primary-darker);line-height:1.2}
+
+.blog-hero{padding:60px 0 48px}
+.blog-hero h1{font-family:var(--serif);font-size:48px;font-weight:500;color:var(--primary-darker);margin-bottom:12px}
+.blog-hero p{font-size:17px;color:var(--text-secondary);max-width:560px}
+
+.category-bar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:40px}
+.cat-btn{padding:7px 18px;border-radius:20px;border:1.5px solid var(--border);font-size:13px;font-weight:500;color:var(--text-secondary);background:none;cursor:pointer;font-family:var(--sans);text-decoration:none}
+.cat-btn:hover,.cat-btn.active{background:var(--primary);color:rgba(255,255,255,1);border-color:var(--primary)}
+
+.blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;padding-bottom:80px}
+.blog-card{border-radius:16px;border:1px solid var(--border);overflow:hidden;background:rgba(255,255,255,1);transition:all .3s;text-decoration:none;display:block;color:inherit}
+.blog-card:hover{transform:translateY(-4px);box-shadow:0 12px 32px rgba(122,158,126,0.15)}
+.blog-thumb{height:200px}
+.blog-card-body{padding:24px}
+.blog-category{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--primary-dark);font-weight:500;margin-bottom:8px}
+.blog-card-body h2{font-family:var(--serif);font-size:22px;font-weight:500;color:var(--primary-darker);line-height:1.35;margin-bottom:10px}
+.blog-card-body p{font-size:14px;color:var(--text-secondary);line-height:1.65;margin-bottom:16px}
+.blog-meta{display:flex;justify-content:space-between;align-items:center;font-size:13px;color:var(--text-muted)}
+.read-more{font-size:13px;color:var(--primary-dark);font-weight:500}
+
+.footer{background:var(--primary-darker);padding:52px 0 0;margin-top:20px}
+.footer-grid{display:grid;grid-template-columns:1.2fr 1fr 0.8fr;gap:48px;padding-bottom:40px;border-bottom:1px solid rgba(255,255,255,0.1)}
+.footer-brand span{font-family:var(--serif);font-size:24px;font-weight:500;color:rgba(255,255,255,1);display:block;margin-bottom:4px}
+.footer-brand small{font-size:13px;color:rgba(255,255,255,0.55);display:block;margin-bottom:20px}
+.footer-contact a{display:flex;align-items:center;gap:8px;color:rgba(255,255,255,0.7);text-decoration:none;font-size:14px;margin-bottom:10px}
+.footer-contact a:hover{color:rgba(255,255,255,1)}
+.footer-insta h4,.footer-links-col h4{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,0.4);font-weight:500;margin-bottom:16px}
+.insta-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;margin-bottom:14px}
+.insta-thumb{aspect-ratio:1;border-radius:4px;background:rgba(255,255,255,0.08)}
+.insta-link{display:inline-flex;align-items:center;gap:6px;color:rgba(255,255,255,0.7);text-decoration:none;font-size:13px}
+.insta-link:hover{color:rgba(255,255,255,1)}
+.footer-links-col a{display:block;color:rgba(255,255,255,0.65);text-decoration:none;font-size:14px;margin-bottom:10px}
+.footer-links-col a:hover{color:rgba(255,255,255,1)}
+.footer-copy{text-align:center;padding:20px 0;font-size:13px;color:rgba(255,255,255,0.35)}
+
+@media(max-width:1024px){.container{padding:0 28px}.blog-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:768px){.container{padding:0 20px}.nav-links{display:none}.hamburger{display:flex}.mobile-menu.open{display:flex;flex-direction:column;padding:20px 0;gap:16px;border-bottom:1px solid var(--border)}.mobile-menu a{font-size:17px;color:var(--text-secondary);text-decoration:none;padding:10px 0;display:block}.mobile-menu a.active{color:var(--primary-dark);font-weight:500}.mobile-menu .nav-cta{text-align:center;display:block;margin-top:8px;padding:14px;border-radius:28px;background:var(--primary);color:rgba(255,255,255,1)}.mobile-menu .lang-switch{margin-top:4px;border:1px solid var(--border);border-radius:6px;overflow:hidden;display:inline-flex}.blog-hero h1{font-size:36px}.blog-grid{grid-template-columns:1fr;gap:16px}.footer-grid{grid-template-columns:1fr;gap:28px}}
+</style>
+</head>
+<body>
+
+<nav class="container"><div class="nav">
+<div class="logo"><a href="/" style="text-decoration:none"><span class="logo-name">Kübra Engüdar</span><span class="logo-title">Uzman Klinik Psikolog · Aile Danışmanı</span></a></div>
+<div class="nav-right">
+<div class="nav-links"><a href="/">Ana Sayfa</a><a href="/hakkimda.html">Hakkımda</a><a href="/blog.html" class="active">Blog</a><a href="/#contact">İletişim</a><a href="/#contact-form" class="nav-cta">Randevu Al</a></div>
+<div class="lang-switch"><a href="/blog.html" class="active">TR</a><a href="/en/blog.html" class="inactive">EN</a></div>
+</div>
+<button class="hamburger" onclick="document.querySelector('.mobile-menu').classList.toggle('open')" aria-label="Menü"><span></span><span></span><span></span></button>
+</div>
+<div class="mobile-menu"><a href="/">Ana Sayfa</a><a href="/hakkimda.html">Hakkımda</a><a href="/blog.html" class="active">Blog</a><a href="/#contact">İletişim</a><a href="/#contact-form" class="nav-cta">Randevu Al</a><div class="lang-switch"><a href="/blog.html" class="active">TR</a><a href="/en/blog.html" class="inactive">EN</a></div></div>
+</nav>
+
+<div class="container">
+<div class="blog-hero">
+<p class="section-tag">Blog</p>
+<h1>Psikoloji yazıları</h1>
+<p>Kaygı, ilişkiler, ebeveynlik, göç psikolojisi ve daha fazlası üzerine uzman gözüyle yazılar.</p>
+</div>
+
+<div class="category-bar">
+<a href="#" class="cat-btn active">Tümü</a>
+<a href="#" class="cat-btn">Göç</a>
+<a href="#" class="cat-btn">İlişkiler</a>
+<a href="#" class="cat-btn">Ebeveynlik</a>
+<a href="#" class="cat-btn">Kişisel Gelişim</a>
+<a href="#" class="cat-btn">Travma</a>
+<a href="#" class="cat-btn">Ergenlik</a>
+<a href="#" class="cat-btn">Özbakım</a>
+</div>
+
+<div class="blog-grid">
+<a href="#" class="blog-card"><div class="blog-thumb" style="background:linear-gradient(135deg,#EBF2EC,#B8CFBA)"></div><div class="blog-card-body"><div class="blog-category">Göç</div><h2>Göç Psikolojisiyle Başa Çıkmak için 10 Öneri</h2><p>Yeni bir ülkede hayata tutunmaya çalışırken psikolojik dayanıklılığınızı korumanın yolları...</p><div class="blog-meta"><span>15 Mart 2026 · 7 dk</span><span class="read-more">Okumaya devam →</span></div></div></a>
+<a href="#" class="blog-card"><div class="blog-thumb" style="background:linear-gradient(135deg,#F5EAE0,#C4956A33)"></div><div class="blog-card-body"><div class="blog-category">İlişkiler</div><h2>Gaslighting: Gerçeklik Algınız Manipüle Ediliyor mu?</h2><p>Gaslighting nedir, nasıl tanınır ve bu manipülasyon biçimiyle nasıl başa çıkılır?</p><div class="blog-meta"><span>8 Mart 2026 · 8 dk</span><span class="read-more">Okumaya devam →</span></div></div></a>
+<a href="#" class="blog-card"><div class="blog-thumb" style="background:linear-gradient(135deg,#F5F0E8,#EBF2EC)"></div><div class="blog-card-body"><div class="blog-category">Kişisel Gelişim</div><h2>Mükemmeliyetçilik: Sizi Koruyan mı, Kısıtlayan mı?</h2><p>Yüksek standartlar ile sizi tüketen mükemmeliyetçilik arasındaki ince çizgi...</p><div class="blog-meta"><span>1 Mart 2026 · 6 dk</span><span class="read-more">Okumaya devam →</span></div></div></a>
+<a href="#" class="blog-card"><div class="blog-thumb" style="background:linear-gradient(135deg,#B8CFBA,#7A9E7E44)"></div><div class="blog-card-body"><div class="blog-category">İlişkiler</div><h2>İlişkilerde Döngüler: Aynı Tartışmayı Neden Tekrar Ederiz?</h2><p>Çiftlerin yıllarca aynı tartışmayı yapmasının arkasındaki psikolojik dinamikler...</p><div class="blog-meta"><span>22 Şubat 2026 · 7 dk</span><span class="read-more">Okumaya devam →</span></div></div></a>
+<a href="#" class="blog-card"><div class="blog-thumb" style="background:linear-gradient(135deg,#F5EAE0,#F5F0E8)"></div><div class="blog-card-body"><div class="blog-category">Ebeveynlik</div><h2>Çocuğunuza Sorumluluk Bilinci Nasıl Kazandırırsınız?</h2><p>Çocuklarda sorumluluk bilincini destekleyen ebeveyn tutumları ve pratik öneriler...</p><div class="blog-meta"><span>15 Şubat 2026 · 8 dk</span><span class="read-more">Okumaya devam →</span></div></div></a>
+<a href="#" class="blog-card"><div class="blog-thumb" style="background:linear-gradient(135deg,#EBF2EC,#F5EAE0)"></div><div class="blog-card-body"><div class="blog-category">Kişisel Gelişim</div><h2>Kurban Rolü: Hayatınızın Kontrolünü Geri Alın</h2><p>Kurban rolüne girmenin farkında olmak ve bu kalıptan çıkmanın pratik yolları...</p><div class="blog-meta"><span>8 Şubat 2026 · 6 dk</span><span class="read-more">Okumaya devam →</span></div></div></a>
+<a href="#" class="blog-card"><div class="blog-thumb" style="background:linear-gradient(135deg,#EBF2EC,#B8CFBA)"></div><div class="blog-card-body"><div class="blog-category">Psikolojik Sağlık</div><h2>Psikolojik Sağlamlık Nedir ve Nasıl Geliştirilir?</h2><p>Zorluklarla başa çıkma kapasitesini artırmanın bilimsel temelli yolları...</p><div class="blog-meta"><span>1 Şubat 2026 · 9 dk</span><span class="read-more">Okumaya devam →</span></div></div></a>
+<a href="#" class="blog-card"><div class="blog-thumb" style="background:linear-gradient(135deg,#F5F0E8,#F5EAE0)"></div><div class="blog-card-body"><div class="blog-category">Özbakım</div><h2>Psikolojik Özbakım: Duygularınızı Fark Edin, Sınır Koyun</h2><p>Duygusal özbakım rutini oluşturmak ve sağlıklı sınırlar koymak için rehber...</p><div class="blog-meta"><span>25 Ocak 2026 · 7 dk</span><span class="read-more">Okumaya devam →</span></div></div></a>
+<a href="#" class="blog-card"><div class="blog-thumb" style="background:linear-gradient(135deg,#B8CFBA,#EBF2EC)"></div><div class="blog-card-body"><div class="blog-category">Ebeveynlik</div><h2>Evcil Hayvanların Çocuk Gelişimine Etkisi</h2><p>Evcil hayvanla büyümenin çocukların empati, sorumluluk ve duygusal gelişimine katkısı...</p><div class="blog-meta"><span>18 Ocak 2026 · 6 dk</span><span class="read-more">Okumaya devam →</span></div></div></a>
+<a href="#" class="blog-card"><div class="blog-thumb" style="background:linear-gradient(135deg,#F5EAE0,#EBF2EC)"></div><div class="blog-card-body"><div class="blog-category">Ebeveynlik</div><h2>Okula Uyum Sürecinde Ailelerin Yapabilecekleri</h2><p>İlk okul günlerinde çocuğunuzun uyumunu kolaylaştırmak için kanıta dayalı öneriler...</p><div class="blog-meta"><span>10 Ocak 2026 · 7 dk</span><span class="read-more">Okumaya devam →</span></div></div></a>
+<a href="#" class="blog-card"><div class="blog-thumb" style="background:linear-gradient(135deg,#EBF2EC,#F5F0E8)"></div><div class="blog-card-body"><div class="blog-category">Travma</div><h2>Doğal Afet Sonrası Psikolojik Baş Etme Rehberi</h2><p>Afet travmasıyla başa çıkma, iyileşme süreci ve destek almak için pratik bilgiler...</p><div class="blog-meta"><span>3 Ocak 2026 · 8 dk</span><span class="read-more">Okumaya devam →</span></div></div></a>
+<a href="#" class="blog-card"><div class="blog-thumb" style="background:linear-gradient(135deg,#F5F0E8,#B8CFBA)"></div><div class="blog-card-body"><div class="blog-category">Ergenlik</div><h2>Ergenliği Tanımak, Ergenleri Anlamak</h2><p>Ergenlik döneminin psikolojik dinamiklerini anlamak ve sağlıklı iletişim kurmak...</p><div class="blog-meta"><span>27 Aralık 2025 · 9 dk</span><span class="read-more">Okumaya devam →</span></div></div></a>
+<a href="#" class="blog-card"><div class="blog-thumb" style="background:linear-gradient(135deg,#EBF2EC,#F5EAE0)"></div><div class="blog-card-body"><div class="blog-category">Ebeveynlik</div><h2>Pozitif Disiplin: Ebeveyn Tutumlarının Çocuk Gelişimine Etkisi</h2><p>Ceza yerine pozitif disiplin yöntemlerinin çocuk psikolojisine etkileri...</p><div class="blog-meta"><span>20 Aralık 2025 · 8 dk</span><span class="read-more">Okumaya devam →</span></div></div></a>
+</div>
+</div>
+
+<footer class="footer"><div class="container footer-grid">
+<div class="footer-brand">
+<span>Kübra Engüdar</span>
+<small>Uzman Klinik Psikolog · Aile Danışmanı</small>
+<div class="footer-contact">
+<a href="mailto:info@kubraengudar.com"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>info@kubraengudar.com</a>
+<a href="https://www.instagram.com/psikolog.kubraengudar/" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>@psikolog.kubraengudar</a>
+</div>
+</div>
+<div class="footer-insta">
+<h4>Instagram</h4>
+<div class="insta-grid">
+<div class="insta-thumb" style="background:linear-gradient(135deg,#EBF2EC,#B8CFBA)"></div>
+<div class="insta-thumb" style="background:linear-gradient(135deg,#F5EAE0,#C4956A33)"></div>
+<div class="insta-thumb" style="background:linear-gradient(135deg,#F5F0E8,#EBF2EC)"></div>
+<div class="insta-thumb" style="background:linear-gradient(135deg,#B8CFBA,#7A9E7E44)"></div>
+<div class="insta-thumb" style="background:linear-gradient(135deg,#F5EAE0,#F5F0E8)"></div>
+<div class="insta-thumb" style="background:linear-gradient(135deg,#EBF2EC,#F5EAE0)"></div>
+</div>
+<a href="https://www.instagram.com/psikolog.kubraengudar/" target="_blank" rel="noopener" class="insta-link"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>Profili Takip Et</a>
+</div>
+<div class="footer-links-col">
+<h4>Sayfalar</h4>
+<a href="/">Ana Sayfa</a>
+<a href="/hakkimda.html">Hakkımda</a>
+<a href="/blog.html">Blog</a>
+<a href="/#contact-form">Randevu Al</a>
+<a href="#">Gizlilik Politikası</a>
+<a href="#">KVKK</a>
+</div>
+</div><div class="footer-copy container">© 2026 kubraengudar.com · Tüm hakları saklıdır.</div></footer>
+</body>
+</html>
