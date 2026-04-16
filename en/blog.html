@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<meta name="description" content="Psychologist Kübra Engüdar Blog — Articles on psychology, parenting, immigration, relationships and personal growth.">
+<title>Blog — Psychologist Kübra Engüdar</title>
+<link rel="canonical" href="https://kubraengudar.com/en/blog">
+<link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/blog">
+<link rel="alternate" hreflang="tr" href="https://kubraengudar.com/blog">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--primary:#7A9E7E;--primary-light:#EBF2EC;--primary-lighter:#F5F0E8;--primary-dark:#4A6E4E;--primary-darker:#2C2417;--accent:#C4956A;--accent-light:#F5EAE0;--text:#2C2417;--text-secondary:#6B5C4A;--text-muted:#9A8878;--border:rgba(44,36,23,0.1);--bg:#FDFBF6;--serif:'Cormorant Garamond',Georgia,serif;--sans:'DM Sans',-apple-system,BlinkMacSystemFont,system-ui,sans-serif}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:var(--sans);color:var(--text);background:var(--bg);line-height:1.7;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+.container{max-width:1200px;margin:0 auto;padding:0 40px}
+.nav{padding:20px 0;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--border)}
+.logo-name{font-family:var(--serif);font-size:28px;font-weight:500;color:var(--primary-darker);display:block}
+.logo-title{font-size:13px;letter-spacing:1px;text-transform:uppercase;color:var(--primary-dark);margin-top:4px;font-weight:500;display:block}
+.nav-right{display:flex;gap:28px;align-items:center}
+.nav-links{display:flex;gap:28px;align-items:center}
+.nav-links a{font-size:15px;color:var(--text-secondary);text-decoration:none}
+.nav-links a:hover,.nav-links a.active{color:var(--primary-dark);font-weight:500}
+.nav-links a.nav-cta{padding:12px 28px;border-radius:28px;background:var(--primary);color:rgba(255,255,255,1)!important;font-size:14px;font-weight:500}
+.nav-links a.nav-cta:hover{background:var(--primary-dark)}
+.lang-switch{display:flex;gap:2px;border:1px solid var(--border);border-radius:6px;overflow:hidden}
+.lang-switch a{padding:5px 12px;font-size:12px;font-weight:500;text-decoration:none;color:var(--text-muted)}
+.lang-switch a.active{background:var(--primary);color:rgba(255,255,255,1)}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:8px;background:none;border:none}
+.hamburger span{width:24px;height:2px;background:var(--primary-darker);display:block}
+.mobile-menu{display:none}
+.section-tag{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;color:var(--primary-dark);font-weight:500;margin-bottom:10px}
+.section-title{font-family:var(--serif);font-size:36px;font-weight:500;color:var(--primary-darker);line-height:1.2}
+
+.blog-hero{padding:60px 0 48px}
+.blog-hero h1{font-family:var(--serif);font-size:48px;font-weight:500;color:var(--primary-darker);margin-bottom:12px}
+.blog-hero p{font-size:17px;color:var(--text-secondary);max-width:560px}
+
+.category-bar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:40px}
+.cat-btn{padding:7px 18px;border-radius:20px;border:1.5px solid var(--border);font-size:13px;font-weight:500;color:var(--text-secondary);background:none;cursor:pointer;font-family:var(--sans);text-decoration:none}
+.cat-btn:hover,.cat-btn.active{background:var(--primary);color:rgba(255,255,255,1);border-color:var(--primary)}
+
+.blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;padding-bottom:80px}
+.blog-card{border-radius:16px;border:1px solid var(--border);overflow:hidden;background:rgba(255,255,255,1);transition:all .3s;text-decoration:none;display:block;color:inherit}
+.blog-card:hover{transform:translateY(-4px);box-shadow:0 12px 32px rgba(122,158,126,0.15)}
+.blog-thumb{height:200px}
+.blog-card-body{padding:24px}
+.blog-category{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--primary-dark);font-weight:500;margin-bottom:8px}
+.blog-card-body h2{font-family:var(--serif);font-size:22px;font-weight:500;color:var(--primary-darker);line-height:1.35;margin-bottom:10px}
+.blog-card-body p{font-size:14px;color:var(--text-secondary);line-height:1.65;margin-bottom:16px}
+.blog-meta{display:flex;justify-content:space-between;align-items:center;font-size:13px;color:var(--text-muted)}
+.read-more{font-size:13px;color:var(--primary-dark);font-weight:500}
+
+.footer{background:var(--primary-darker);padding:52px 0 0;margin-top:20px}
+.footer-grid{display:grid;grid-template-columns:1.2fr 1fr 0.8fr;gap:48px;padding-bottom:40px;border-bottom:1px solid rgba(255,255,255,0.1)}
+.footer-brand span{font-family:var(--serif);font-size:24px;font-weight:500;color:rgba(255,255,255,1);display:block;margin-bottom:4px}
+.footer-brand small{font-size:13px;color:rgba(255,255,255,0.55);display:block;margin-bottom:20px}
+.footer-contact a{display:flex;align-items:center;gap:8px;color:rgba(255,255,255,0.7);text-decoration:none;font-size:14px;margin-bottom:10px}
+.footer-contact a:hover{color:rgba(255,255,255,1)}
+.footer-insta h4,.footer-links-col h4{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,0.4);font-weight:500;margin-bottom:16px}
+.insta-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;margin-bottom:14px}
+.insta-thumb{aspect-ratio:1;border-radius:4px;background:rgba(255,255,255,0.08)}
+.insta-link{display:inline-flex;align-items:center;gap:6px;color:rgba(255,255,255,0.7);text-decoration:none;font-size:13px}
+.insta-link:hover{color:rgba(255,255,255,1)}
+.footer-links-col a{display:block;color:rgba(255,255,255,0.65);text-decoration:none;font-size:14px;margin-bottom:10px}
+.footer-links-col a:hover{color:rgba(255,255,255,1)}
+.footer-copy{text-align:center;padding:20px 0;font-size:13px;color:rgba(255,255,255,0.35)}
+
+@media(max-width:1024px){.container{padding:0 28px}.blog-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:768px){.container{padding:0 20px}.nav-links{display:none}.hamburger{display:flex}.mobile-menu.open{display:flex;flex-direction:column;padding:20px 0;gap:16px;border-bottom:1px solid var(--border)}.mobile-menu a{font-size:17px;color:var(--text-secondary);text-decoration:none;padding:10px 0;display:block}.mobile-menu a.active{color:var(--primary-dark);font-weight:500}.mobile-menu .nav-cta{text-align:center;display:block;margin-top:8px;padding:14px;border-radius:28px;background:var(--primary);color:rgba(255,255,255,1)}.mobile-menu .lang-switch{margin-top:4px;border:1px solid var(--border);border-radius:6px;overflow:hidden;display:inline-flex}.blog-hero h1{font-size:36px}.blog-grid{grid-template-columns:1fr;gap:16px}.footer-grid{grid-template-columns:1fr;gap:28px}}
+</style>
+</head>
+<body>
+
+<nav class="container"><div class="nav">
+<div class="logo"><a href="/en/" style="text-decoration:none"><span class="logo-name">Kübra Engüdar</span><span class="logo-title">Clinical Psychologist · Family Counselor</span></a></div>
+<div class="nav-right">
+<div class="nav-links"><a href="/en/">Home</a><a href="/en/about.html">About</a><a href="/en/blog.html" class="active">Blog</a><a href="/en/#contact">Contact</a><a href="/en/#contact-form" class="nav-cta">Book a Session</a></div>
+<div class="lang-switch"><a href="/blog.html" class="inactive">TR</a><a href="/en/blog.html" class="active">EN</a></div>
+</div>
+<button class="hamburger" onclick="document.querySelector('.mobile-menu').classList.toggle('open')" aria-label="Menu"><span></span><span></span><span></span></button>
+</div>
+<div class="mobile-menu"><a href="/en/">Home</a><a href="/en/about.html">About</a><a href="/en/blog.html" class="active">Blog</a><a href="/en/#contact">Contact</a><a href="/en/#contact-form" class="nav-cta">Book a Session</a><div class="lang-switch"><a href="/blog.html" class="inactive">TR</a><a href="/en/blog.html" class="active">EN</a></div></div>
+</nav>
+
+<div class="container">
+<div class="blog-hero">
+<p class="section-tag">Blog</p>
+<h1>Psychology articles</h1>
+<p>Expert perspectives on anxiety, relationships, parenting, immigration psychology, and more.</p>
+</div>
+
+<div class="category-bar">
+<a href="#" class="cat-btn active">All</a>
+<a href="#" class="cat-btn">Immigration</a>
+<a href="#" class="cat-btn">Relationships</a>
+<a href="#" class="cat-btn">Parenting</a>
+<a href="#" class="cat-btn">Personal Growth</a>
+<a href="#" class="cat-btn">Trauma</a>
+<a href="#" class="cat-btn">Adolescence</a>
+<a href="#" class="cat-btn">Self-Care</a>
+</div>
+
+<div class="blog-grid">
+<a href="#" class="blog-card"><div class="blog-thumb" style="background:linear-gradient(135deg,#EBF2EC,#B8CFBA)"></div><div class="blog-card-body"><div class="blog-category">Immigration</div><h2>10 Tips for Coping with Immigration Psychology</h2><p>Ways to protect your psychological resilience while trying to find your footing in a new country...</p><div class="blog-meta"><span>March 15, 2026 · 7 min</span><span class="read-more">Read more →</span></div></div></a>
+<a href="#" class="blog-card"><div class="blog-thumb" style="background:linear-gradient(135deg,#F5EAE0,#C4956A33)"></div><div class="blog-card-body"><div class="blog-category">Relationships</div><h2>Gaslighting: Is Your Sense of Reality Being Manipulated?</h2><p>What is gaslighting, how to recognize it, and how to cope with this form of manipulation?</p><div class="blog-meta"><span>March 8, 2026 · 8 min</span><span class="read-more">Read more →</span></div></div></a>
+<a href="#" class="blog-card"><div class="blog-thumb" style="background:linear-gradient(135deg,#F5F0E8,#EBF2EC)"></div><div class="blog-card-body"><div class="blog-category">Personal Growth</div><h2>Perfectionism: Is It Protecting You or Holding You Back?</h2><p>The fine line between high standards and the kind of perfectionism that burns you out...</p><div class="blog-meta"><span>March 1, 2026 · 6 min</span><span class="read-more">Read more →</span></div></div></a>
+<a href="#" class="blog-card"><div class="blog-thumb" style="background:linear-gradient(135deg,#B8CFBA,#7A9E7E44)"></div><div class="blog-card-body"><div class="blog-category">Relationships</div><h2>Relationship Cycles: Why Do We Keep Having the Same Argument?</h2><p>The psychological dynamics behind couples having the same argument year after year...</p><div class="blog-meta"><span>February 22, 2026 · 7 min</span><span class="read-more">Read more →</span></div></div></a>
+<a href="#" class="blog-card"><div class="blog-thumb" style="background:linear-gradient(135deg,#F5EAE0,#F5F0E8)"></div><div class="blog-card-body"><div class="blog-category">Parenting</div><h2>How to Teach Your Child a Sense of Responsibility</h2><p>Parenting attitudes that support developing responsibility in children and practical suggestions...</p><div class="blog-meta"><span>February 15, 2026 · 8 min</span><span class="read-more">Read more →</span></div></div></a>
+<a href="#" class="blog-card"><div class="blog-thumb" style="background:linear-gradient(135deg,#EBF2EC,#F5EAE0)"></div><div class="blog-card-body"><div class="blog-category">Personal Growth</div><h2>The Victim Role: Reclaim Control of Your Life</h2><p>Becoming aware of falling into the victim role and practical ways to break out of this pattern...</p><div class="blog-meta"><span>February 8, 2026 · 6 min</span><span class="read-more">Read more →</span></div></div></a>
+<a href="#" class="blog-card"><div class="blog-thumb" style="background:linear-gradient(135deg,#EBF2EC,#B8CFBA)"></div><div class="blog-card-body"><div class="blog-category">Psychological Health</div><h2>What Is Psychological Resilience and How to Build It?</h2><p>Science-based approaches to increasing your capacity to cope with adversity...</p><div class="blog-meta"><span>February 1, 2026 · 9 min</span><span class="read-more">Read more →</span></div></div></a>
+<a href="#" class="blog-card"><div class="blog-thumb" style="background:linear-gradient(135deg,#F5F0E8,#F5EAE0)"></div><div class="blog-card-body"><div class="blog-category">Self-Care</div><h2>Psychological Self-Care: Notice Your Emotions, Set Boundaries</h2><p>A guide to building an emotional self-care routine and setting healthy boundaries...</p><div class="blog-meta"><span>January 25, 2026 · 7 min</span><span class="read-more">Read more →</span></div></div></a>
+<a href="#" class="blog-card"><div class="blog-thumb" style="background:linear-gradient(135deg,#B8CFBA,#EBF2EC)"></div><div class="blog-card-body"><div class="blog-category">Parenting</div><h2>The Impact of Pets on Child Development</h2><p>How growing up with pets contributes to children's empathy, responsibility, and emotional development...</p><div class="blog-meta"><span>January 18, 2026 · 6 min</span><span class="read-more">Read more →</span></div></div></a>
+<a href="#" class="blog-card"><div class="blog-thumb" style="background:linear-gradient(135deg,#F5EAE0,#EBF2EC)"></div><div class="blog-card-body"><div class="blog-category">Parenting</div><h2>What Families Can Do During School Adjustment</h2><p>Evidence-based suggestions to ease your child's transition during those first days of school...</p><div class="blog-meta"><span>January 10, 2026 · 7 min</span><span class="read-more">Read more →</span></div></div></a>
+<a href="#" class="blog-card"><div class="blog-thumb" style="background:linear-gradient(135deg,#EBF2EC,#F5F0E8)"></div><div class="blog-card-body"><div class="blog-category">Trauma</div><h2>A Guide to Psychological Coping After Natural Disasters</h2><p>Practical information on coping with disaster trauma, the healing process, and seeking support...</p><div class="blog-meta"><span>January 3, 2026 · 8 min</span><span class="read-more">Read more →</span></div></div></a>
+<a href="#" class="blog-card"><div class="blog-thumb" style="background:linear-gradient(135deg,#F5F0E8,#B8CFBA)"></div><div class="blog-card-body"><div class="blog-category">Adolescence</div><h2>Understanding Adolescence, Understanding Teenagers</h2><p>Understanding the psychological dynamics of adolescence and building healthy communication...</p><div class="blog-meta"><span>December 27, 2025 · 9 min</span><span class="read-more">Read more →</span></div></div></a>
+<a href="#" class="blog-card"><div class="blog-thumb" style="background:linear-gradient(135deg,#EBF2EC,#F5EAE0)"></div><div class="blog-card-body"><div class="blog-category">Parenting</div><h2>Positive Discipline: The Impact of Parenting Attitudes on Child Development</h2><p>The effects of positive discipline methods on child psychology, as an alternative to punishment...</p><div class="blog-meta"><span>December 20, 2025 · 8 min</span><span class="read-more">Read more →</span></div></div></a>
+</div>
+</div>
+
+<footer class="footer"><div class="container footer-grid">
+<div class="footer-brand">
+<span>Kübra Engüdar</span>
+<small>Clinical Psychologist · Family Counselor</small>
+<div class="footer-contact">
+<a href="mailto:info@kubraengudar.com"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>info@kubraengudar.com</a>
+<a href="https://www.instagram.com/psikolog.kubraengudar/" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>@psikolog.kubraengudar</a>
+</div>
+</div>
+<div class="footer-insta">
+<h4>Instagram</h4>
+<div class="insta-grid">
+<div class="insta-thumb" style="background:linear-gradient(135deg,#EBF2EC,#B8CFBA)"></div>
+<div class="insta-thumb" style="background:linear-gradient(135deg,#F5EAE0,#C4956A33)"></div>
+<div class="insta-thumb" style="background:linear-gradient(135deg,#F5F0E8,#EBF2EC)"></div>
+<div class="insta-thumb" style="background:linear-gradient(135deg,#B8CFBA,#7A9E7E44)"></div>
+<div class="insta-thumb" style="background:linear-gradient(135deg,#F5EAE0,#F5F0E8)"></div>
+<div class="insta-thumb" style="background:linear-gradient(135deg,#EBF2EC,#F5EAE0)"></div>
+</div>
+<a href="https://www.instagram.com/psikolog.kubraengudar/" target="_blank" rel="noopener" class="insta-link"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>Follow on Instagram</a>
+</div>
+<div class="footer-links-col">
+<h4>Pages</h4>
+<a href="/en/">Home</a>
+<a href="/en/about.html">About</a>
+<a href="/en/blog.html">Blog</a>
+<a href="/en/#contact-form">Book a Session</a>
+<a href="#">Privacy Policy</a>
+</div>
+</div><div class="footer-copy container">© 2026 kubraengudar.com · All rights reserved.</div></footer>
+</body>
+</html>
