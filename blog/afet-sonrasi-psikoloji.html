@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Doğal Afet Sonrası Psikolojik Baş Etme Rehberi | Kübra Engüdar</title>
+<meta name="description" content="Deprem, sel veya yangın gibi doğal afetlerin ardından yaşanan psikolojik tepkiler normaldir. Travma belirtilerini tanıyın ve iyileşme sürecini destekleyin.">
+<link rel="canonical" href="https://kubraengudar.com/blog/afet-sonrasi-psikoloji">
+<link rel="alternate" hreflang="tr" href="https://kubraengudar.com/blog/afet-sonrasi-psikoloji">
+<link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/blog/afet-sonrasi-psikoloji">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--primary:#7A9E7E;--primary-light:#EBF2EC;--primary-mid:#B8CFBA;--primary-dark:#4A6E4E;--primary-darker:#2C2417;--cream:#F5F0E8;--cream-dark:#EDE5D8;--warm:#FDFBF6;--brown-mid:#6B5C4A;--brown-light:#9A8878;--accent:#C4956A;--accent-light:#F5EAE0;--serif:'Cormorant Garamond',serif;--sans:'DM Sans',sans-serif}
+body{font-family:var(--sans);color:var(--primary-darker);background:var(--warm);line-height:1.7}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+.container{max-width:1200px;margin:0 auto;padding:0 24px}
+
+/* NAV */
+nav{background:var(--warm);border-bottom:1px solid rgba(44,36,23,.08);position:sticky;top:0;z-index:100}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;height:72px}
+.nav-logo{display:flex;flex-direction:column;line-height:1.2}
+.nav-logo .name{font-family:var(--serif);font-size:20px;font-weight:500;color:var(--primary-darker)}
+.nav-logo .title{font-size:11px;color:var(--brown-light);letter-spacing:.5px}
+.nav-links{display:flex;align-items:center;gap:32px}
+.nav-links a{font-size:14px;font-weight:400;color:var(--brown-mid);transition:color .2s}
+.nav-links a:hover,.nav-links a.active{color:var(--primary-dark)}
+.nav-right{display:flex;align-items:center;gap:16px}
+.btn-appt{background:var(--primary);color:#fff;padding:10px 22px;border-radius:8px;font-size:14px;font-weight:500;transition:background .2s}
+.btn-appt:hover{background:var(--primary-dark)}
+.lang-switch{display:flex;gap:4px}
+.lang-switch a{font-size:12px;font-weight:500;padding:4px 8px;border-radius:4px;color:var(--brown-light);transition:all .2s}
+.lang-switch a.active{background:var(--primary-light);color:var(--primary-dark)}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:4px}
+.hamburger span{display:block;width:24px;height:2px;background:var(--primary-darker);border-radius:2px;transition:.3s}
+.mobile-menu{display:none;flex-direction:column;background:var(--warm);border-top:1px solid rgba(44,36,23,.08);padding:16px 24px 24px}
+.mobile-menu a{padding:12px 0;font-size:15px;color:var(--brown-mid);border-bottom:1px solid rgba(44,36,23,.06)}
+.mobile-menu a:last-child{border-bottom:none}
+.mobile-menu.open{display:flex}
+@media(max-width:768px){.nav-links,.nav-right{display:none}.hamburger{display:flex}}
+
+/* BREADCRUMB */
+.breadcrumb{padding:16px 0;display:flex;align-items:center;gap:8px;font-size:13px;color:var(--brown-light)}
+.breadcrumb a{color:var(--primary-dark);transition:color .2s}
+.breadcrumb a:hover{color:var(--primary-darker)}
+.breadcrumb span{color:var(--brown-light)}
+
+/* ARTICLE */
+.article-hero{padding:36px 0 44px;max-width:760px}
+.article-category{display:inline-block;font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--primary-dark);font-weight:500;margin-bottom:20px;background:var(--primary-light);padding:6px 14px;border-radius:20px}
+.article-hero h1{font-family:var(--serif);font-size:44px;font-weight:500;color:var(--primary-darker);line-height:1.2;margin-bottom:20px}
+.article-meta{display:flex;align-items:center;gap:20px;font-size:13px;color:var(--brown-light)}
+.article-meta span{display:flex;align-items:center;gap:6px}
+.article-body{max-width:760px;padding:40px 0 60px}
+.article-body h2{font-family:var(--serif);font-size:28px;font-weight:500;color:var(--primary-darker);margin:44px 0 16px;line-height:1.3}
+.article-body h3{font-family:var(--serif);font-size:22px;font-weight:500;color:var(--primary-dark);margin:32px 0 12px}
+.article-body p{font-size:16px;color:var(--brown-mid);line-height:1.8;margin-bottom:20px}
+.article-body ul,.article-body ol{padding-left:24px;margin-bottom:20px}
+.article-body li{font-size:16px;color:var(--brown-mid);line-height:1.8;margin-bottom:8px}
+.article-body strong{color:var(--primary-darker);font-weight:600}
+.article-body blockquote{border-left:3px solid var(--primary);padding:16px 24px;margin:28px 0;background:var(--primary-light);border-radius:0 8px 8px 0}
+.article-body blockquote p{color:var(--primary-dark);font-style:italic;margin:0}
+.divider{width:60px;height:3px;background:var(--primary-mid);border-radius:2px;margin:0 0 40px}
+
+/* CTA */
+.article-cta{background:var(--primary-light);border-radius:20px;padding:48px;text-align:center;margin-bottom:80px}
+.article-cta h3{font-family:var(--serif);font-size:30px;color:var(--primary-darker);margin-bottom:12px}
+.article-cta p{color:var(--brown-mid);margin-bottom:28px;font-size:15px}
+.btn-primary{display:inline-block;background:var(--primary);color:#fff;padding:14px 32px;border-radius:10px;font-weight:500;font-size:15px;transition:background .2s}
+.btn-primary:hover{background:var(--primary-dark)}
+
+/* FOOTER */
+footer{background:var(--primary-darker);color:rgba(255,255,255,.75);padding:64px 0 32px}
+.footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:48px;margin-bottom:48px}
+.footer-logo .name{font-family:var(--serif);font-size:22px;color:#fff;font-weight:500}
+.footer-logo .sub{font-size:12px;color:rgba(255,255,255,.5);margin-top:4px;margin-bottom:20px}
+.footer-contact-item{display:flex;align-items:center;gap:10px;margin-bottom:12px;font-size:13px;color:rgba(255,255,255,.65)}
+.footer-contact-item svg{opacity:.7;flex-shrink:0}
+.footer-contact-item a{color:rgba(255,255,255,.65);transition:color .2s}
+.footer-contact-item a:hover{color:#fff}
+.footer-insta h4{font-size:13px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:rgba(255,255,255,.4);margin-bottom:16px}
+.insta-cta{display:flex;align-items:center;gap:12px;padding:14px 16px;border-radius:10px;background:rgba(255,255,255,.07);text-decoration:none;transition:background .2s;color:rgba(255,255,255,.85)}
+.insta-cta:hover{background:rgba(255,255,255,.12)}
+.insta-cta-text{display:flex;flex-direction:column;gap:2px}
+.insta-cta-text span{font-size:14px;font-weight:500;color:#fff}
+.insta-cta-text small{font-size:12px;color:rgba(255,255,255,.5)}
+.footer-links h4{font-size:13px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:rgba(255,255,255,.4);margin-bottom:16px}
+.footer-links ul{list-style:none}
+.footer-links li{margin-bottom:10px}
+.footer-links a{font-size:14px;color:rgba(255,255,255,.65);transition:color .2s}
+.footer-links a:hover{color:#fff}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.08);padding-top:24px;text-align:center;font-size:12px;color:rgba(255,255,255,.35)}
+@media(max-width:768px){.footer-grid{grid-template-columns:1fr}.article-hero h1{font-size:32px}}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="container">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo">
+        <span class="name">Kübra Engüdar</span>
+        <span class="title">Uzman Klinik Psikolog · Aile Danışmanı</span>
+      </a>
+      <div class="nav-links">
+        <a href="/">Ana Sayfa</a>
+        <a href="/hakkimda.html">Hakkımda</a>
+        <a href="/blog.html" class="active">Blog</a>
+        <a href="/#contact-form">İletişim</a>
+      </div>
+      <div class="nav-right">
+        <a href="/#contact-form" class="btn-appt">Randevu Al</a>
+        <div class="lang-switch">
+          <a href="/blog/afet-sonrasi-psikoloji.html" class="active">TR</a>
+          <a href="/en/blog/afet-sonrasi-psikoloji.html">EN</a>
+        </div>
+      </div>
+      <div class="hamburger" onclick="this.nextElementSibling.classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+    <div class="mobile-menu">
+      <a href="/">Ana Sayfa</a>
+      <a href="/hakkimda.html">Hakkımda</a>
+      <a href="/blog.html">Blog</a>
+      <a href="/#contact-form">İletişim</a>
+      <a href="/#contact-form" style="color:var(--primary-dark);font-weight:500">Randevu Al</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="breadcrumb">
+    <a href="/">Ana Sayfa</a>
+    <span>›</span>
+    <a href="/blog.html">Blog</a>
+    <span>›</span>
+    <span>Afet Sonrası Psikoloji</span>
+  </div>
+
+  <div class="article-hero">
+    <span class="article-category">Travma</span>
+    <h1>Doğal Afet Sonrası Psikolojik Baş Etme Rehberi</h1>
+    <div class="article-meta">
+      <span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        3 Ocak 2026
+      </span>
+      <span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        8 dk okuma
+      </span>
+      <span>Kübra Engüdar</span>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="article-body">
+    <div class="divider"></div>
+
+    <p>Deprem, sel, yangın ya da fırtına gibi doğal afetler, yaşamın olağan akışını aniden sekteye uğratır. Bu tür olayların ardından insanların yoğun duygusal tepkiler yaşaması son derece doğaldır. Psikologlar, afet sonrası yaşanan tepkilerin büyük çoğunluğunun "olağandışı bir duruma verilen olağan tepkiler" olduğunu vurgular. Bu rehber, afet sonrasında kendinizi ve sevdiklerinizi psikolojik açıdan nasıl destekleyebileceğinizi açıklamaktadır.</p>
+
+    <h2>Afet Sonrası Yaşanan Yaygın Psikolojik Tepkiler</h2>
+
+    <p>Afet sonrasında insanlar çok farklı duygular yaşayabilir. Bu tepkilerin bilinmesi, "neden böyle hissediyorum?" sorusuna yanıt bulmanızı ve kendinizi anlamanızı kolaylaştırır.</p>
+
+    <h3>Duygusal Tepkiler</h3>
+    <ul>
+      <li><strong>Şok ve inanamama:</strong> "Bu gerçekten oldu mu?" hissi, olayın gerçekliğinin kabul edilmesini güçleştirir.</li>
+      <li><strong>Korku ve kaygı:</strong> Tekrar bir afet yaşanacağından korkmak, sürekli tetikte olmak, sıradan seslere aşırı tepki vermek.</li>
+      <li><strong>Keder ve yas:</strong> Kayıplar için yoğun üzüntü hissetmek; bu kayıplar kişilerin yanı sıra ev, eşya veya eski yaşam tarzını da kapsayabilir.</li>
+      <li><strong>Öfke:</strong> Sorumlu olduğunu düşündüğünüz kişilere, kurumlara ya da "neden ben?" sorusuna verilen içgüdüsel bir tepki olarak ortaya çıkabilir.</li>
+      <li><strong>Suçluluk:</strong> Başkalarına yardım edemedikten veya hayatta kaldıktan sonra yaşanan "hayatta kalma suçluluğu" sık görülür.</li>
+      <li><strong>Umutsuzluk:</strong> Geleceğe ilişkin belirsizlik ve çaresizlik hissi.</li>
+    </ul>
+
+    <h3>Bedensel Tepkiler</h3>
+    <ul>
+      <li>Uyku bozuklukları (uykuya dalamama, sık uyanma, kabuslar)</li>
+      <li>İştah değişiklikleri (aşırı yeme veya yiyememe)</li>
+      <li>Yorgunluk ve enerji eksikliği</li>
+      <li>Baş ağrısı, mide bulantısı, kas gerginliği</li>
+      <li>Kalp çarpıntısı ve nefes darlığı hissi</li>
+    </ul>
+
+    <h3>Zihinsel ve Davranışsal Tepkiler</h3>
+    <ul>
+      <li>Konsantrasyon güçlüğü, unutkanlık</li>
+      <li>Olayı sürekli zihninde canlandırma (flashback)</li>
+      <li>Sosyal geri çekilme, yalnız kalmak isteme</li>
+      <li>Afet öncesinde zevk alınan etkinliklere ilginin azalması</li>
+      <li>Tetikleyicilerden kaçınma (depremden sonra yüksek binalardan kaçınmak gibi)</li>
+    </ul>
+
+    <blockquote>
+      <p>Araştırmalar, afet mağdurlarının yaklaşık %30-40'ının ilk aylarda anlamlı psikolojik sıkıntı yaşadığını, ancak büyük çoğunluğunun uygun destek ile zamanla iyileştiğini ortaya koymaktadır.</p>
+    </blockquote>
+
+    <h2>Psikolojik İlk Yardım: İlk Günlerde Ne Yapabilirsiniz?</h2>
+
+    <p>Psikolojik ilk yardım, afet veya kriz sonrasında insanların temel ihtiyaçlarını karşılamak ve psikolojik sıkıntıyı azaltmak için uygulanabilecek pratik bir destektir. Aşağıdaki adımlar hem kendi kendinize hem de çevrenizdekilere uygulayabileceğiniz temel ilkeleri içermektedir.</p>
+
+    <h3>1. Güvenliği Sağlayın</h3>
+    <p>Fiziksel güvenlik, psikolojik iyileşmenin temelidir. Güvende hissetmeden duygusal iyileşme başlayamaz. Güvenli bir barınma, beslenme ve temel ihtiyaçların karşılanması önceliklidir.</p>
+
+    <h3>2. Sakinleşme Tekniklerini Kullanın</h3>
+    <p>Yoğun kaygı veya panik anlarında şu yöntemler yardımcı olabilir:</p>
+    <ul>
+      <li><strong>4-7-8 nefes tekniği:</strong> 4 saniye nefes alın, 7 saniye tutun, 8 saniyede verin.</li>
+      <li><strong>5-4-3-2-1 egzersizi:</strong> Etrafınızda 5 gördüğünüz şeyi, 4 dokunduğunuzu, 3 duyduğunuzu, 2 kokladığınızı, 1 tattığınızı sayın. Bu egzersiz sizi "şu an"a bağlar.</li>
+      <li><strong>Kasları gerip gevşetme:</strong> Vücudunuzun farklı bölgelerindeki kasları sırayla gerin ve bırakın.</li>
+    </ul>
+
+    <h3>3. Bağlantı Kurun</h3>
+    <p>Sosyal destek, travma sonrası iyileşmenin en güçlü koruyucu faktörlerinden biridir. Güvendiğiniz kişilerle bağlantıda kalmak, yalnız olmadığınızı hissettirmek için önemlidir. Fiziksel olarak bir araya gelemesseniz bile telefon veya video görüşmesi bağlantıyı canlı tutar.</p>
+
+    <h3>4. Rutinleri Yeniden Oluşturun</h3>
+    <p>Afetler rutinleri yerle bir eder. Mümkün olduğunca belirli bir uyku saati, yemek düzeni ve küçük günlük ritüeller oluşturmaya çalışmak, beyne "hayat devam ediyor" mesajını verir ve güvenlik hissini yeniden inşa eder.</p>
+
+    <h3>5. Medya Tüketimini Sınırlayın</h3>
+    <p>Afetle ilgili haberleri ve görüntüleri tekrar tekrar izlemek, travmatik tepkileri yoğunlaştırır. Günde belirli bir süre (15-20 dakika) güvenilir kaynaklardan haber takip etmek ve ardından ekranı kapatmak önerilir.</p>
+
+    <h2>Travma Sonrası Stres Bozukluğu (TSSB): Ne Zaman Profesyonel Yardım Gerekir?</h2>
+
+    <p>Afet sonrası yaşanan tepkilerin çoğu zamanla azalır. Ancak bazı durumlarda tepkiler geçmez, hatta yoğunlaşabilir. Bu durumda profesyonel destek almak büyük önem taşır.</p>
+
+    <p>Aşağıdaki belirtilerin bir ay veya daha uzun süre devam etmesi durumunda bir ruh sağlığı uzmanına başvurmanız önerilir:</p>
+
+    <ul>
+      <li>Olayı tekrar tekrar zihninde yaşamak (flashback, kabuslar)</li>
+      <li>Olayı hatırlatan yer, kişi veya durumlardan sürekli kaçınmak</li>
+      <li>Sürekli tetikte olmak, kolayca irkilmek</li>
+      <li>Olumsuz düşünceler ve duygular (suçluluk, utanç, "dünya tehlikeli bir yer" inancı)</li>
+      <li>Sosyal izolasyon, günlük işlevselliğin bozulması</li>
+      <li>Alkol veya madde kullanımında artış</li>
+    </ul>
+
+    <p>TSSB, EMDR (Göz Hareketleriyle Duyarsızlaştırma ve Yeniden İşleme) ve Bilişsel Davranışçı Terapi başta olmak üzere çeşitli kanıta dayalı yöntemlerle etkili biçimde tedavi edilebilen bir durumdur.</p>
+
+    <h2>Çocuklar ve Afet: Ebeveynlere Öneriler</h2>
+
+    <p>Çocuklar afet sonrası özellikle savunmasızdır. Güvende olmak için büyüklere bağımlı olan çocuklar, yaşadıklarını işleyebilmek için ebeveynlerin desteğine her zamankinden daha fazla ihtiyaç duyar.</p>
+
+    <ul>
+      <li><strong>Dürüst ve anlaşılır bilgi verin:</strong> Yaşa uygun, basit bir dille ne olduğunu açıklayın. Çocukları korumak için saklanan bilgiler genellikle hayal gücünde daha korkunç biçimlere bürünür.</li>
+      <li><strong>Duygularını normalleştirin:</strong> "Korkmak normal, ben de korktum" demek çocuğun kendini yargılamasını önler.</li>
+      <li><strong>Rutin ve öngörülebilirlik:</strong> Mümkünse uyku ve yemek saatlerini koruyun. Rutin, çocuğa güvenlik hissi verir.</li>
+      <li><strong>Oyun ve ifadeye alan tanıyın:</strong> Çocuklar oyun yoluyla travmatik deneyimlerini işler. Çizim, oyun hamuru veya dramatik oyun bu süreçte yardımcı olabilir.</li>
+      <li><strong>Kendi psikolojinize dikkat edin:</strong> Ebeveynin kaygısı çocuğa geçer. Kendi sakinliğinizi koruyabilmek için destek almanız, çocuğunuza verebileceğiniz en büyük katkılardan biridir.</li>
+    </ul>
+
+    <h2>Topluluk Olarak İyileşmek</h2>
+
+    <p>Doğal afetler bireyleri olduğu kadar toplulukları da etkiler. Ortak deneyim, dayanışma ve paylaşım iyileşme sürecinin güçlü dinamikleridir. Gönüllülük faaliyetlerine katılmak, komşularla dayanışmak ve topluluk etkinliklerine dahil olmak hem verenin hem de alanın psikolojik iyilik haline katkıda bulunur.</p>
+
+    <p>Araştırmalar, afet sonrasında "post-travmatik büyüme" yaşayabildiğini göstermektedir: bazı bireyler zorlu deneyimler sonrasında değerleri, ilişkileri ve yaşam bakış açıları konusunda olumlu dönüşümler bildirmektedir. Bu büyüme kendiliğinden gerçekleşmez; destekle, zamanla ve bireysel çabayla oluşur.</p>
+
+    <h2>Sonuç</h2>
+
+    <p>Afet sonrası psikolojik tepkiler, zayıflığın değil; insanlığın ve hayatta kalma içgüdüsünün bir göstergesidir. Bu tepkileri tanımak, normalleştirmek ve uygun destek almak iyileşme sürecini hızlandırır. Kendinize ve sevdiklerinize karşı sabırlı olun. İyileşme doğrusal değil, iniş çıkışlı bir süreçtir — ve bu süreçte yalnız olmadığınızı bilin.</p>
+
+    <p>Bir doğal afet sonrasında kendinizi veya bir yakınınızı desteklemekte güçlük çekiyorsanız, profesyonel psikolojik destek almak için iletişime geçmekten çekinmeyin.</p>
+  </div>
+
+  <div class="article-cta">
+    <h3>Travma Sonrası Destek Almak İster misiniz?</h3>
+    <p>Afet sonrası yaşadıklarınızı birlikte işleyebilir, iyileşme yolculuğunuzda yanınızda olabilirim.</p>
+    <a href="/#contact-form" class="btn-primary">Randevu Al</a>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">
+          <div class="name">Kübra Engüdar</div>
+          <div class="sub">Uzman Klinik Psikolog · Aile Danışmanı</div>
+        </div>
+        <div class="footer-contact-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <a href="mailto:info@kubraengudar.com">info@kubraengudar.com</a>
+        </div>
+        <div class="footer-contact-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+          <a href="https://www.instagram.com/psikolog.kubraengudar/" target="_blank" rel="noopener">@psikolog.kubraengudar</a>
+        </div>
+      </div>
+      <div class="footer-insta">
+        <h4>Instagram</h4>
+        <a href="https://www.instagram.com/psikolog.kubraengudar/" target="_blank" rel="noopener" class="insta-cta">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          <div class="insta-cta-text">
+            <span>@psikolog.kubraengudar</span>
+            <small>Profili takip et →</small>
+          </div>
+        </a>
+      </div>
+      <div class="footer-links">
+        <h4>Bağlantılar</h4>
+        <ul>
+          <li><a href="/gizlilik-politikasi.html">Gizlilik Politikası</a></li>
+          <li><a href="/kvkk.html">KVKK Aydınlatma Metni</a></li>
+          <li><a href="/">Ana Sayfa</a></li>
+          <li><a href="/hakkimda.html">Hakkımda</a></li>
+          <li><a href="/blog.html">Blog</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 kubraengudar.com · Tüm hakları saklıdır.</div>
+  </div>
+</footer>
+
+</body>
+</html>
