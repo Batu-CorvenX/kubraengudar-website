@@ -147,5 +147,28 @@ body{font-family:var(--sans);color:var(--text);background:var(--bg);line-height:
 <a href="/kvkk.html">KVKK</a>
 </div>
 </div><div class="footer-copy container">© 2026 kubraengudar.com · Tüm hakları saklıdır.</div></footer>
+<script>
+  const catBtns = document.querySelectorAll('.cat-btn');
+  const cards = document.querySelectorAll('.blog-card');
+
+  catBtns.forEach(btn => {
+    btn.addEventListener('click', function(e) {
+      e.preventDefault();
+      catBtns.forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+
+      const selected = this.textContent.trim().toLowerCase();
+
+      cards.forEach(card => {
+        if (selected === 'tümü') {
+          card.style.display = 'block';
+        } else {
+          const cat = (card.dataset.category || '').toLowerCase();
+          card.style.display = cat === selected ? 'block' : 'none';
+        }
+      });
+    });
+  });
+</script>
 </body>
 </html>
