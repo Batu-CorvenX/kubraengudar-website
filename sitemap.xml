@@ -4,6 +4,16 @@
 
   <url>
     <loc>https://kubraengudar.com/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kubraengudar.com/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://kubraengudar.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kubraengudar.com/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/"/>
     <changefreq>monthly</changefreq>
@@ -19,19 +29,253 @@
   </url>
 
   <url>
-    <loc>https://kubraengudar.com/en/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/"/>
+    <loc>https://kubraengudar.com/en/about</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/hakkimda"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/about"/>
     <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://kubraengudar.com/en/about</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/about"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/hakkimda"/>
-    <changefreq>monthly</changefreq>
+    <loc>https://kubraengudar.com/blog</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/blog"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/blog"/>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://kubraengudar.com/en/blog</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/blog"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/blog"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://kubraengudar.com/blog/goc-psikolojisi-10-oneri</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/blog/goc-psikolojisi-10-oneri"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/blog/goc-psikolojisi-10-oneri"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://kubraengudar.com/en/blog/goc-psikolojisi-10-oneri</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/blog/goc-psikolojisi-10-oneri"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/blog/goc-psikolojisi-10-oneri"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://kubraengudar.com/blog/gaslighting-nedir</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/blog/gaslighting-nedir"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/blog/gaslighting-nedir"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://kubraengudar.com/en/blog/gaslighting-nedir</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/blog/gaslighting-nedir"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/blog/gaslighting-nedir"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://kubraengudar.com/blog/mukemmeliyetcilik</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/blog/mukemmeliyetcilik"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/blog/mukemmeliyetcilik"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://kubraengudar.com/en/blog/mukemmeliyetcilik</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/blog/mukemmeliyetcilik"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/blog/mukemmeliyetcilik"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://kubraengudar.com/blog/iliskilerde-donguler</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/blog/iliskilerde-donguler"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/blog/iliskilerde-donguler"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://kubraengudar.com/en/blog/iliskilerde-donguler</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/blog/iliskilerde-donguler"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/blog/iliskilerde-donguler"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://kubraengudar.com/blog/cocuga-sorumluluk</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/blog/cocuga-sorumluluk"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/blog/cocuga-sorumluluk"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://kubraengudar.com/en/blog/cocuga-sorumluluk</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/blog/cocuga-sorumluluk"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/blog/cocuga-sorumluluk"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://kubraengudar.com/blog/kurban-rolu</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/blog/kurban-rolu"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/blog/kurban-rolu"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://kubraengudar.com/en/blog/kurban-rolu</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/blog/kurban-rolu"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/blog/kurban-rolu"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://kubraengudar.com/blog/psikolojik-saglamlik</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/blog/psikolojik-saglamlik"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/blog/psikolojik-saglamlik"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://kubraengudar.com/en/blog/psikolojik-saglamlik</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/blog/psikolojik-saglamlik"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/blog/psikolojik-saglamlik"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://kubraengudar.com/blog/psikolojik-ozbakim</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/blog/psikolojik-ozbakim"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/blog/psikolojik-ozbakim"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://kubraengudar.com/en/blog/psikolojik-ozbakim</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/blog/psikolojik-ozbakim"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/blog/psikolojik-ozbakim"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://kubraengudar.com/blog/evcil-hayvan-cocuk</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/blog/evcil-hayvan-cocuk"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/blog/evcil-hayvan-cocuk"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://kubraengudar.com/en/blog/evcil-hayvan-cocuk</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/blog/evcil-hayvan-cocuk"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/blog/evcil-hayvan-cocuk"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://kubraengudar.com/blog/okula-uyum</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/blog/okula-uyum"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/blog/okula-uyum"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://kubraengudar.com/en/blog/okula-uyum</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/blog/okula-uyum"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/blog/okula-uyum"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://kubraengudar.com/blog/afet-sonrasi-psikoloji</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/blog/afet-sonrasi-psikoloji"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/blog/afet-sonrasi-psikoloji"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://kubraengudar.com/en/blog/afet-sonrasi-psikoloji</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/blog/afet-sonrasi-psikoloji"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/blog/afet-sonrasi-psikoloji"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://kubraengudar.com/blog/ergenlik</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/blog/ergenlik"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/blog/ergenlik"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://kubraengudar.com/en/blog/ergenlik</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/blog/ergenlik"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/blog/ergenlik"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://kubraengudar.com/blog/pozitif-disiplin</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/blog/pozitif-disiplin"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/blog/pozitif-disiplin"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://kubraengudar.com/en/blog/pozitif-disiplin</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kubraengudar.com/blog/pozitif-disiplin"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kubraengudar.com/en/blog/pozitif-disiplin"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://kubraengudar.com/gizlilik-politikasi</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://kubraengudar.com/kvkk</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://kubraengudar.com/en/privacy-policy</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
 
 </urlset>

@@ -2,6 +2,7 @@
 <html lang="tr">
 <head>
 <meta charset="UTF-8">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 <meta name="description" content="Psikolog Kübra Engüdar Blog — Psikoloji, ebeveynlik, göç, ilişkiler ve kişisel gelişim üzerine yazılar.">
 <title>Blog — Psikolog Kübra Engüdar</title>
@@ -102,6 +103,7 @@ body{font-family:var(--sans);color:var(--text);background:var(--bg);line-height:
 <a href="#" class="cat-btn">Travma</a>
 <a href="#" class="cat-btn">Ergenlik</a>
 <a href="#" class="cat-btn">Özbakım</a>
+<a href="#" class="cat-btn">Psikolojik Sağlık</a>
 </div>
 
 <div class="blog-grid">
@@ -157,13 +159,13 @@ body{font-family:var(--sans);color:var(--text);background:var(--bg);line-height:
       catBtns.forEach(b => b.classList.remove('active'));
       this.classList.add('active');
 
-      const selected = this.textContent.trim().toLowerCase();
+      const selected = this.textContent.trim().toLocaleLowerCase('tr-TR');
 
       cards.forEach(card => {
         if (selected === 'tümü') {
           card.style.display = 'block';
         } else {
-          const cat = (card.dataset.category || '').toLowerCase();
+          const cat = (card.dataset.category || '').toLocaleLowerCase('tr-TR');
           card.style.display = cat === selected ? 'block' : 'none';
         }
       });
