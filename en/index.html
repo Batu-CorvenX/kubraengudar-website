@@ -173,14 +173,15 @@ img{max-width:100%;height:auto;display:block}
 .footer-insta{grid-column:1/-1}
 }
 @media(max-width:768px){
-.container{padding:0 20px}
+.container{padding-left:20px;padding-right:20px}
 .nav-links{display:none}
 .hamburger{display:flex}
 .mobile-menu.open{display:flex;flex-direction:column;padding:20px 0;gap:16px;border-bottom:1px solid var(--border)}
 .mobile-menu a{font-size:17px;color:var(--text-secondary);text-decoration:none;padding:10px 0;display:block}
 .mobile-menu a.active{color:var(--primary-dark);font-weight:500}
 .mobile-menu .nav-cta{text-align:center;display:block;margin-top:8px;padding:14px;border-radius:28px;background:var(--primary);color:rgba(255,255,255,1)}
-.mobile-menu .lang-switch{margin-top:4px;border:1px solid var(--border);border-radius:6px;overflow:hidden;display:inline-flex}
+.mobile-menu .lang-switch{margin-top:4px;border:1px solid var(--border);border-radius:6px;overflow:hidden;display:inline-flex;width:auto;align-self:flex-start}
+.mobile-menu .lang-switch a{min-width:44px;text-align:center;padding:8px 14px}
 .hero{padding:40px 0 32px;gap:32px}
 .hero h1{font-size:34px}
 .hero p{font-size:15px}
@@ -295,15 +296,13 @@ img{max-width:100%;height:auto;display:block}
 <!-- CTA + FORM -->
 <section class="cta container" id="appointment"><div class="cta-inner">
 <h2>Let's take the first step together</h2>
-<p>I offer personalized support. Fill in the form below to apply for counseling.</p>
+<p>Once your form is received, you will be contacted as soon as possible.</p>
 <a href="#contact-form" class="btn-primary">Apply Now</a>
 </div></section>
 
 <section class="contact-form-section container" id="contact-form">
 <div class="contact-form-inner">
-<h3>Counseling Application Form</h3>
-<p class="subtitle">Once your form is received, you will be contacted as soon as possible.</p>
-<form action="https://formspree.io/f/xaqlllkn" method="POST">
+<h3>Counseling Application Form</h3><form action="https://formspree.io/f/xaqlllkn" method="POST">
 <div class="form-group"><label>Full Name *</label><input type="text" name="name" placeholder="Your Full Name" required></div>
 <div class="form-group"><label>Email Address *</label><input type="email" name="email" placeholder="example@email.com" required></div>
 <div class="form-group"><label>Phone Number</label><input type="tel" name="phone" placeholder="+1 (555) 000-0000"></div>
@@ -371,7 +370,7 @@ img{max-width:100%;height:auto;display:block}
 </div><div class="footer-copy container">© 2026 kubraengudar.com · All rights reserved.</div></footer>
 
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"ProfessionalService","name":"Psychologist Kübra Engüdar","description":"Clinical Psychologist and Family Counselor. Individual therapy, child-adolescent counseling, family counseling and EMDR therapy.","url":"https://kubraengudar.com/en/","email":"info@kubraengudar.com","serviceType":["Individual Therapy","Family Counseling","Child-Adolescent Therapy","EMDR Therapy"],"sameAs":["https://www.instagram.com/psikolog.kubraengudar"]}
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"Psychologist Kübra Engüdar","description":"Clinical Psychologist and Family Counselor. Individual counseling, child-adolescent counseling, family counseling and EMDR therapy.","url":"https://kubraengudar.com/en/","email":"info@kubraengudar.com","serviceType":["Individual Counseling","Family Counseling","Child-Adolescent Counseling","EMDR Therapy"],"sameAs":["https://www.instagram.com/psikolog.kubraengudar"]}
 </script>
 </body>
 </html>
